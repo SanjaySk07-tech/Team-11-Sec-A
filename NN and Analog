@@ -158,6 +158,7 @@ void loop() {
   // Do nothing. Everything is done in another task by the web server
   delay(10000);
 }
+
 #Code for grabbing esp32 stream, and implementing yolo model on it
 import cv2
 from ultralytics import YOLO
